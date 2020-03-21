@@ -21,6 +21,7 @@ F 0 "J1" H 3218 4317 50  0000 C CNN
 F 1 "Conn_01x02" H 3600 4050 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3300 4100 50  0001 C CNN
 F 3 "~" H 3300 4100 50  0001 C CNN
+F 4 "TSW-104-12-T-S-RA" H 3300 4100 50  0001 C CNN "MouserID"
 	1    3300 4100
 	-1   0    0    1   
 $EndComp
@@ -44,6 +45,7 @@ F 0 "U1" H 5900 4350 50  0000 L CNN
 F 1 "LTC6268-10" H 5750 4000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5850 4250 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf" H 5850 4350 50  0001 C CNN
+F 4 "584-C6268IS6-10TMPF" H 5800 4200 50  0001 C CNN "MouserID"
 	1    5800 4200
 	1    0    0    -1  
 $EndComp
@@ -366,6 +368,7 @@ F 0 "U3" H 5750 3417 50  0000 C CNN
 F 1 "LT1761-5" H 5750 3326 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 5750 3375 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf" H 5750 3050 50  0001 C CNN
+F 4 "584-LT1761ES5-5TRPBF" H 5750 3050 50  0001 C CNN "MouserID"
 	1    5750 3050
 	1    0    0    -1  
 $EndComp
@@ -547,6 +550,7 @@ F 0 "U2" H 7650 4350 50  0000 L CNN
 F 1 "LTC6268-10" H 7500 4000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7600 4250 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf" H 7600 4350 50  0001 C CNN
+F 4 "584-C6268IS6-10TMPF" H 7550 4200 50  0001 C CNN "MouserID"
 	1    7550 4200
 	1    0    0    -1  
 $EndComp

@@ -1,2 +1,4 @@
 
 .DS_Store
+*.sch-bak
+Oscilloscope_Differential_Probe/KiCAD/fp-info-cache
