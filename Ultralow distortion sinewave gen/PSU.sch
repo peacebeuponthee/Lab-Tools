@@ -1,0 +1,779 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date "2020-12-21"
+Rev "B"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Audio_Components:LT3045xMSE U16
+U 1 1 5EDBA565
+P 7800 2450
+F 0 "U16" H 7800 2817 50  0000 C CNN
+F 1 "LT3045xMSE" H 7800 2726 50  0000 C CNN
+F 2 "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm" H 7800 2775 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf" H 7800 2450 50  0001 C CNN
+F 4 "LT3045EMSE#PBF" H 7800 2450 50  0001 C CNN "PartNumber"
+	1    7800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Components:LT3094xMSE U17
+U 1 1 5EDBB737
+P 7800 4350
+F 0 "U17" H 7800 4625 50  0000 C CNN
+F 1 "LT3094xMSE" H 7800 4716 50  0000 C CNN
+F 2 "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm" H 7800 4675 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf" H 7800 4350 50  0001 C CNN
+F 4 "LT3094EMSE#PBF" H 7800 4350 50  0001 C CNN "PartNumber"
+	1    7800 4350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7800 2850 7800 3400
+$Comp
+L Device:R R36
+U 1 1 5EDBE1E1
+P 7300 3150
+F 0 "R36" H 7370 3196 50  0000 L CNN
+F 1 "120K" H 7370 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7230 3150 50  0001 C CNN
+F 3 "~" H 7300 3150 50  0001 C CNN
+F 4 "ERA-6AEB124V" H 7300 3150 50  0001 C CNN "PartNumber"
+	1    7300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 5EDBEB7C
+P 7300 3650
+F 0 "R37" H 7370 3696 50  0000 L CNN
+F 1 "120K" H 7370 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7230 3650 50  0001 C CNN
+F 3 "~" H 7300 3650 50  0001 C CNN
+F 4 "ERA-6AEB124V" H 7300 3650 50  0001 C CNN "PartNumber"
+	1    7300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3300 7300 3400
+Wire Wire Line
+	7400 2650 7300 2650
+Wire Wire Line
+	7300 2650 7300 3000
+Wire Wire Line
+	7400 4050 7300 4050
+Wire Wire Line
+	7300 4050 7300 3800
+Wire Wire Line
+	7000 4000 7000 4050
+Wire Wire Line
+	7000 4050 7300 4050
+Connection ~ 7300 4050
+Wire Wire Line
+	7000 3700 7000 3400
+Wire Wire Line
+	7000 2750 7000 2650
+Wire Wire Line
+	7000 2650 7300 2650
+Connection ~ 7300 2650
+Wire Wire Line
+	7000 3400 7300 3400
+Connection ~ 7000 3400
+Wire Wire Line
+	7000 3400 7000 3050
+Connection ~ 7300 3400
+Wire Wire Line
+	7300 3400 7300 3500
+Wire Wire Line
+	7300 3400 7800 3400
+Connection ~ 7800 3400
+Wire Wire Line
+	7800 3400 7800 3850
+Wire Wire Line
+	6500 3400 6650 3400
+Wire Wire Line
+	6650 4000 6650 3400
+Connection ~ 6650 3400
+Wire Wire Line
+	6650 3400 7000 3400
+Wire Wire Line
+	6650 2800 6650 3400
+Wire Wire Line
+	6650 2500 6650 2350
+Connection ~ 6650 2350
+Wire Wire Line
+	6650 2350 7300 2350
+Wire Wire Line
+	6650 4300 6650 4450
+Connection ~ 6650 4450
+Wire Wire Line
+	6650 4450 7300 4450
+Wire Wire Line
+	8750 2350 8750 2450
+Wire Wire Line
+	8200 2350 8750 2350
+Wire Wire Line
+	8750 4450 8750 4350
+Wire Wire Line
+	8200 4450 8750 4450
+Wire Wire Line
+	8750 4000 8750 3400
+Wire Wire Line
+	7800 3400 8750 3400
+Wire Wire Line
+	8750 2800 8750 3400
+Connection ~ 8750 3400
+Wire Wire Line
+	8200 2450 8750 2450
+Connection ~ 8750 2450
+Wire Wire Line
+	8750 2450 8750 2500
+Wire Wire Line
+	8200 4350 8750 4350
+Connection ~ 8750 4350
+Wire Wire Line
+	8750 4350 8750 4300
+Wire Wire Line
+	7400 2450 7300 2450
+Wire Wire Line
+	7300 2450 7300 2350
+Connection ~ 7300 2350
+Wire Wire Line
+	7300 2350 7400 2350
+Wire Wire Line
+	7400 4350 7300 4350
+Wire Wire Line
+	7300 4350 7300 4450
+Connection ~ 7300 4450
+Wire Wire Line
+	7300 4450 7400 4450
+Text Label 7100 2350 0    50   ~ 0
++IN
+Text Label 7100 4450 0    50   ~ 0
+-IN
+Text Label 8200 2550 0    50   ~ 0
++IN
+Text Label 8200 4250 0    50   ~ 0
+-IN
+NoConn ~ 8200 4050
+NoConn ~ 8200 4150
+NoConn ~ 8200 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5EDD67A5
+P 6500 3400
+AR Path="/5EDD67A5" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB09B0/5EDD67A5" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 6500 3150 50  0001 C CNN
+F 1 "GND" H 6505 3227 50  0001 C CNN
+F 2 "" H 6500 3400 50  0001 C CNN
+F 3 "" H 6500 3400 50  0001 C CNN
+	1    6500 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EDD6EAD
+P 7400 2550
+AR Path="/5EDD6EAD" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB09B0/5EDD6EAD" Ref="#PWR060"  Part="1" 
+F 0 "#PWR060" H 7400 2300 50  0001 C CNN
+F 1 "GND" H 7405 2377 50  0001 C CNN
+F 2 "" H 7400 2550 50  0001 C CNN
+F 3 "" H 7400 2550 50  0001 C CNN
+	1    7400 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EDD73AE
+P 7400 4150
+AR Path="/5EDD73AE" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB09B0/5EDD73AE" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 7400 3900 50  0001 C CNN
+F 1 "GND" H 7405 3977 50  0001 C CNN
+F 2 "" H 7400 4150 50  0001 C CNN
+F 3 "" H 7400 4150 50  0001 C CNN
+	1    7400 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR062
+U 1 1 5EDD7B07
+P 8750 3400
+F 0 "#PWR062" H 8750 3150 50  0001 C CNN
+F 1 "GNDA" V 8755 3272 50  0000 R CNN
+F 2 "" H 8750 3400 50  0001 C CNN
+F 3 "" H 8750 3400 50  0001 C CNN
+	1    8750 3400
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8900 2350 2    50   Output ~ 0
++12V
+Wire Wire Line
+	8750 2350 8900 2350
+Connection ~ 8750 2350
+Text HLabel 8900 4450 2    50   Output ~ 0
+-12V
+Wire Wire Line
+	8750 4450 8900 4450
+Connection ~ 8750 4450
+$Comp
+L Device:D_Schottky D3
+U 1 1 5FC5E56F
+P 4050 5600
+F 0 "D3" V 4004 5679 50  0000 L CNN
+F 1 "SS14-E3/61T" V 4095 5679 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 4050 5600 50  0001 C CNN
+F 3 "~" H 4050 5600 50  0001 C CNN
+F 4 "SS14-E3/61T" H 4050 5600 50  0001 C CNN "PartNumber"
+	1    4050 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D4
+U 1 1 5FC5E575
+P 4050 6000
+F 0 "D4" V 4004 6079 50  0000 L CNN
+F 1 "SS14-E3/61T" V 4095 6079 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 4050 6000 50  0001 C CNN
+F 3 "~" H 4050 6000 50  0001 C CNN
+F 4 "SS14-E3/61T" H 4050 6000 50  0001 C CNN "PartNumber"
+	1    4050 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 5750 4050 5800
+Wire Wire Line
+	4050 6150 4050 6350
+Wire Wire Line
+	4050 5450 4050 5300
+Wire Wire Line
+	4050 5800 4350 5800
+Connection ~ 4050 5800
+Wire Wire Line
+	4050 5800 4050 5850
+$Comp
+L Audio_Components:DIN-5_180degree J?
+U 1 1 5FC5E587
+P 2150 5500
+AR Path="/5FC5E587" Ref="J?"  Part="1" 
+AR Path="/5EDB09B0/5FC5E587" Ref="J3"  Part="1" 
+F 0 "J3" V 2050 5200 50  0000 R CNN
+F 1 "DIN-5" V 2300 5300 50  0000 R CNN
+F 2 "Audio_Components:CUI_SDS-50J" H 2150 5500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 2150 5500 50  0001 C CNN
+F 4 "SDS-50J" V 2150 5500 50  0001 C CNN "PartNumber"
+	1    2150 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 P1
+U 1 1 5FC5E58D
+P 3950 3400
+F 0 "P1" H 3868 3817 50  0000 C CNN
+F 1 "Conn_01x05" H 3868 3726 50  0000 C CNN
+F 2 "Audio_Components:Molex_Header_PCB_09-65-2058" H 3950 3400 50  0001 C CNN
+F 3 "~" H 3950 3400 50  0001 C CNN
+F 4 "09-65-2058" H 3950 3400 50  0001 C CNN "PartNumber"
+	1    3950 3400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3300 4350 3300
+Wire Wire Line
+	4150 3500 4350 3500
+Wire Wire Line
+	4350 3200 4350 3100
+Wire Wire Line
+	4150 3200 4350 3200
+Wire Wire Line
+	4150 3400 4550 3400
+Wire Wire Line
+	4550 3400 4550 3100
+$Comp
+L power:GND #PWR0116
+U 1 1 5FC5E59B
+P 4350 3300
+F 0 "#PWR0116" H 4350 3050 50  0001 C CNN
+F 1 "GND" H 4355 3127 50  0001 C CNN
+F 2 "" H 4350 3300 50  0001 C CNN
+F 3 "" H 4350 3300 50  0001 C CNN
+	1    4350 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5FC5E5A1
+P 4350 3500
+F 0 "#PWR0117" H 4350 3250 50  0001 C CNN
+F 1 "GND" H 4355 3327 50  0001 C CNN
+F 2 "" H 4350 3500 50  0001 C CNN
+F 3 "" H 4350 3500 50  0001 C CNN
+	1    4350 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 5650 3400 5300
+$Comp
+L Device:R R27
+U 1 1 5FC5E5A8
+P 3150 6100
+F 0 "R27" H 3220 6146 50  0000 L CNN
+F 1 "100" H 3220 6055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3080 6100 50  0001 C CNN
+F 3 "~" H 3150 6100 50  0001 C CNN
+F 4 "CMP0805-FX-1000ELF" H 3150 6100 50  0001 C CNN "PartNumber"
+	1    3150 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FC5E5AE
+P 3650 6100
+F 0 "R3" H 3720 6146 50  0000 L CNN
+F 1 "240" H 3720 6055 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 3580 6100 50  0001 C CNN
+F 3 "~" H 3650 6100 50  0001 C CNN
+F 4 "CRCW2512240RFKEG" H 3650 6100 50  0001 C CNN "PartNumber"
+	1    3650 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6250 3150 6350
+Wire Wire Line
+	3650 6250 3650 6350
+Text Label 3150 5300 0    50   ~ 0
++5
+Text Label 3650 5300 0    50   ~ 0
++15
+Text Label 3400 5300 0    50   ~ 0
+-15
+Text Label 4050 5300 0    50   ~ 0
++15
+Text Label 4050 6350 0    50   ~ 0
+-15
+Wire Wire Line
+	3150 5300 3150 5900
+Wire Wire Line
+	3650 5300 3650 5800
+Wire Wire Line
+	2150 5800 2150 5900
+Wire Wire Line
+	2150 5900 3150 5900
+Connection ~ 3150 5900
+Wire Wire Line
+	3150 5900 3150 5950
+Wire Wire Line
+	2250 5200 2750 5200
+Wire Wire Line
+	2750 5200 2750 5650
+Wire Wire Line
+	2750 5650 3400 5650
+Wire Wire Line
+	2250 5800 3650 5800
+Connection ~ 3650 5800
+Wire Wire Line
+	3650 5800 3650 5950
+Text Label 3200 4250 2    50   ~ 0
++15
+Text Label 3200 4450 2    50   ~ 0
+-15
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 5FB3BBB5
+P 1900 2800
+F 0 "J4" H 1792 2575 50  0000 C CNN
+F 1 "Banana Violet" H 1792 2666 50  0000 C CNN
+F 2 "" H 1900 2800 50  0001 C CNN
+F 3 "~" H 1900 2800 50  0001 C CNN
+F 4 "108-0912-001" H 1900 2800 50  0001 C CNN "PartNumber"
+	1    1900 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 5FB3C91F
+P 1900 3100
+F 0 "J5" H 1792 2875 50  0000 C CNN
+F 1 "Banana Black" H 1792 2966 50  0000 C CNN
+F 2 "" H 1900 3100 50  0001 C CNN
+F 3 "~" H 1900 3100 50  0001 C CNN
+F 4 "108-0903-001" H 1900 3100 50  0001 C CNN "PartNumber"
+	1    1900 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 5FB3CDFC
+P 1900 3400
+F 0 "J6" H 1792 3175 50  0000 C CNN
+F 1 "Banana Yellow" H 1792 3266 50  0000 C CNN
+F 2 "" H 1900 3400 50  0001 C CNN
+F 3 "~" H 1900 3400 50  0001 C CNN
+F 4 "108-0907-001" H 1900 3400 50  0001 C CNN "PartNumber"
+	1    1900 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 5FB3D231
+P 1900 4000
+F 0 "J7" H 1792 3775 50  0000 C CNN
+F 1 "Banana Red" H 1792 3866 50  0000 C CNN
+F 2 "" H 1900 4000 50  0001 C CNN
+F 3 "~" H 1900 4000 50  0001 C CNN
+F 4 "108-0902-001" H 1900 4000 50  0001 C CNN "PartNumber"
+	1    1900 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5FC08F3B
+P 3400 3400
+F 0 "J1" H 3318 3817 50  0000 C CNN
+F 1 "5-Pin MOLEX Housing" H 3318 3726 50  0000 C CNN
+F 2 "" H 3400 3400 50  0001 C CNN
+F 3 "~" H 3400 3400 50  0001 C CNN
+F 4 "09-50-1051" H 3400 3400 50  0001 C CNN "PartNumber"
+	1    3400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female CRIMP1
+U 1 1 5FB8ADB1
+P 2450 2800
+F 0 "CRIMP1" H 2342 2575 50  0000 C CNN
+F 1 "Crimp" H 2342 2666 50  0000 C CNN
+F 2 "" H 2450 2800 50  0001 C CNN
+F 3 "~" H 2450 2800 50  0001 C CNN
+F 4 "08-70-1030" H 2450 2800 50  0001 C CNN "PartNumber"
+	1    2450 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female CRIMP2
+U 1 1 5FB8BA87
+P 2450 3100
+F 0 "CRIMP2" H 2342 2875 50  0000 C CNN
+F 1 "Crimp" H 2342 2966 50  0000 C CNN
+F 2 "" H 2450 3100 50  0001 C CNN
+F 3 "~" H 2450 3100 50  0001 C CNN
+F 4 "08-70-1030" H 2450 3100 50  0001 C CNN "PartNumber"
+	1    2450 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female CRIMP3
+U 1 1 5FB8BE56
+P 2450 3400
+F 0 "CRIMP3" H 2342 3175 50  0000 C CNN
+F 1 "Crimp" H 2342 3266 50  0000 C CNN
+F 2 "" H 2450 3400 50  0001 C CNN
+F 3 "~" H 2450 3400 50  0001 C CNN
+F 4 "08-70-1030" H 2450 3400 50  0001 C CNN "PartNumber"
+	1    2450 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female CRIMP4
+U 1 1 5FB8C385
+P 2450 3700
+F 0 "CRIMP4" H 2342 3475 50  0000 C CNN
+F 1 "Crimp" H 2342 3566 50  0000 C CNN
+F 2 "" H 2450 3700 50  0001 C CNN
+F 3 "~" H 2450 3700 50  0001 C CNN
+F 4 "08-70-1030" H 2450 3700 50  0001 C CNN "PartNumber"
+	1    2450 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female CRIMP5
+U 1 1 5FB8CB32
+P 2450 4000
+F 0 "CRIMP5" H 2342 3775 50  0000 C CNN
+F 1 "Crimp" H 2342 3866 50  0000 C CNN
+F 2 "" H 2450 4000 50  0001 C CNN
+F 3 "~" H 2450 4000 50  0001 C CNN
+F 4 "08-70-1030" H 2450 4000 50  0001 C CNN "PartNumber"
+	1    2450 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 2800 2850 2800
+Wire Wire Line
+	2850 2800 2850 3200
+Wire Wire Line
+	2850 3200 3200 3200
+Wire Wire Line
+	2650 3100 2750 3100
+Wire Wire Line
+	2750 3100 2750 3300
+Wire Wire Line
+	2750 3300 3200 3300
+Wire Wire Line
+	3200 3400 2650 3400
+Wire Wire Line
+	2650 3700 2750 3700
+Wire Wire Line
+	2750 3700 2750 3500
+Wire Wire Line
+	2750 3500 3200 3500
+Wire Wire Line
+	2850 3600 2850 4000
+Wire Wire Line
+	2850 4000 2650 4000
+Wire Wire Line
+	2850 3600 3200 3600
+Text HLabel 4550 3100 1    50   Output ~ 0
++12V
+Text HLabel 4350 3100 1    50   Output ~ 0
+-12V
+$Comp
+L Connector_Generic:Conn_01x05 J9
+U 1 1 5FCC935C
+P 3400 4450
+F 0 "J9" H 3318 4867 50  0000 C CNN
+F 1 "Jumper Cable" H 3318 4776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3400 4450 50  0001 C CNN
+F 3 "~" H 3400 4450 50  0001 C CNN
+F 4 "FST-21A-5" H 3400 4450 50  0001 C CNN "PartNumber"
+	1    3400 4450
+	1    0    0    -1  
+$EndComp
+Text Label 3200 4650 2    50   ~ 0
++5
+$Comp
+L power:Earth #PWR0115
+U 1 1 5FCCDDB9
+P 3200 4550
+F 0 "#PWR0115" H 3200 4300 50  0001 C CNN
+F 1 "Earth" H 3200 4400 50  0001 C CNN
+F 2 "" H 3200 4550 50  0001 C CNN
+F 3 "~" H 3200 4550 50  0001 C CNN
+	1    3200 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR0118
+U 1 1 5FCCFA57
+P 3200 4350
+F 0 "#PWR0118" H 3200 4100 50  0001 C CNN
+F 1 "Earth" H 3200 4200 50  0001 C CNN
+F 2 "" H 3200 4350 50  0001 C CNN
+F 3 "~" H 3200 4350 50  0001 C CNN
+	1    3200 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR0119
+U 1 1 5FCCFDE3
+P 3150 6350
+F 0 "#PWR0119" H 3150 6100 50  0001 C CNN
+F 1 "Earth" H 3150 6200 50  0001 C CNN
+F 2 "" H 3150 6350 50  0001 C CNN
+F 3 "~" H 3150 6350 50  0001 C CNN
+	1    3150 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0120
+U 1 1 5FCD0E44
+P 3650 6350
+F 0 "#PWR0120" H 3650 6100 50  0001 C CNN
+F 1 "Earth" H 3650 6200 50  0001 C CNN
+F 2 "" H 3650 6350 50  0001 C CNN
+F 3 "~" H 3650 6350 50  0001 C CNN
+	1    3650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0121
+U 1 1 5FCD12DF
+P 4350 5800
+F 0 "#PWR0121" H 4350 5550 50  0001 C CNN
+F 1 "Earth" H 4350 5650 50  0001 C CNN
+F 2 "" H 4350 5800 50  0001 C CNN
+F 3 "~" H 4350 5800 50  0001 C CNN
+	1    4350 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:Earth #PWR0122
+U 1 1 5FCD21A8
+P 1900 5500
+F 0 "#PWR0122" H 1900 5250 50  0001 C CNN
+F 1 "Earth" H 1900 5350 50  0001 C CNN
+F 2 "" H 1900 5500 50  0001 C CNN
+F 3 "~" H 1900 5500 50  0001 C CNN
+	1    1900 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR0123
+U 1 1 5FCD2C97
+P 2150 5200
+F 0 "#PWR0123" H 2150 4950 50  0001 C CNN
+F 1 "Earth" H 2150 5050 50  0001 C CNN
+F 2 "" H 2150 5200 50  0001 C CNN
+F 3 "~" H 2150 5200 50  0001 C CNN
+	1    2150 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J8
+U 1 1 5FCD39A1
+P 3950 4450
+F 0 "J8" H 3868 4867 50  0000 C CNN
+F 1 "Jumper" H 3868 4776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3950 4450 50  0001 C CNN
+F 3 "~" H 3950 4450 50  0001 C CNN
+F 4 "" H 3950 4450 50  0001 C CNN "PartNumber"
+	1    3950 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCD4527
+P 4150 4350
+AR Path="/5FCD4527" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB09B0/5FCD4527" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 4150 4100 50  0001 C CNN
+F 1 "GND" H 4155 4177 50  0001 C CNN
+F 2 "" H 4150 4350 50  0001 C CNN
+F 3 "" H 4150 4350 50  0001 C CNN
+	1    4150 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 2350 5500 4250
+Wire Wire Line
+	5500 2350 6650 2350
+Wire Wire Line
+	4150 4650 5000 4650
+Wire Wire Line
+	4150 3600 5000 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5FCDD2BF
+P 4150 4550
+AR Path="/5FCDD2BF" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB09B0/5FCDD2BF" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 4150 4300 50  0001 C CNN
+F 1 "GND" H 4155 4377 50  0001 C CNN
+F 2 "" H 4150 4550 50  0001 C CNN
+F 3 "" H 4150 4550 50  0001 C CNN
+	1    4150 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 4450 6650 4450
+Wire Wire Line
+	4150 4250 5500 4250
+Wire Wire Line
+	5000 4650 5000 3600
+$Comp
+L power:Earth #PWR0126
+U 1 1 5FBA1A71
+P 2450 5500
+F 0 "#PWR0126" H 2450 5250 50  0001 C CNN
+F 1 "Earth" H 2450 5350 50  0001 C CNN
+F 2 "" H 2450 5500 50  0001 C CNN
+F 3 "~" H 2450 5500 50  0001 C CNN
+	1    2450 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FBA9793
+P 6650 2650
+AR Path="/5FBA9793" Ref="C?"  Part="1" 
+AR Path="/5EDB09B0/5FBA9793" Ref="C27"  Part="1" 
+F 0 "C27" H 6765 2696 50  0000 L CNN
+F 1 "10u" H 6765 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 6650 2650 50  0001 C CNN
+F 3 "~" H 6650 2650 50  0001 C CNN
+F 4 "875105444001" H 6650 2650 50  0001 C CNN "PartNumber"
+	1    6650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FBABD28
+P 6650 4150
+AR Path="/5FBABD28" Ref="C?"  Part="1" 
+AR Path="/5EDB09B0/5FBABD28" Ref="C28"  Part="1" 
+F 0 "C28" H 6765 4196 50  0000 L CNN
+F 1 "10u" H 6765 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 6650 4150 50  0001 C CNN
+F 3 "~" H 6650 4150 50  0001 C CNN
+F 4 "875105444001" H 6650 4150 50  0001 C CNN "PartNumber"
+	1    6650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FBAC505
+P 7000 2900
+AR Path="/5FBAC505" Ref="C?"  Part="1" 
+AR Path="/5EDB09B0/5FBAC505" Ref="C29"  Part="1" 
+F 0 "C29" H 7115 2946 50  0000 L CNN
+F 1 "10u" H 7115 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 7000 2900 50  0001 C CNN
+F 3 "~" H 7000 2900 50  0001 C CNN
+F 4 "875105444001" H 7000 2900 50  0001 C CNN "PartNumber"
+	1    7000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FBACD5C
+P 7000 3850
+AR Path="/5FBACD5C" Ref="C?"  Part="1" 
+AR Path="/5EDB09B0/5FBACD5C" Ref="C30"  Part="1" 
+F 0 "C30" H 7115 3896 50  0000 L CNN
+F 1 "10u" H 7115 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 7000 3850 50  0001 C CNN
+F 3 "~" H 7000 3850 50  0001 C CNN
+F 4 "875105444001" H 7000 3850 50  0001 C CNN "PartNumber"
+	1    7000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FBAD501
+P 8750 2650
+AR Path="/5FBAD501" Ref="C?"  Part="1" 
+AR Path="/5EDB09B0/5FBAD501" Ref="C31"  Part="1" 
+F 0 "C31" H 8865 2696 50  0000 L CNN
+F 1 "10u" H 8865 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 8750 2650 50  0001 C CNN
+F 3 "~" H 8750 2650 50  0001 C CNN
+F 4 "875105444001" H 8750 2650 50  0001 C CNN "PartNumber"
+	1    8750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FBADB40
+P 8750 4150
+AR Path="/5FBADB40" Ref="C?"  Part="1" 
+AR Path="/5EDB09B0/5FBADB40" Ref="C32"  Part="1" 
+F 0 "C32" H 8865 4196 50  0000 L CNN
+F 1 "10u" H 8865 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 8750 4150 50  0001 C CNN
+F 3 "~" H 8750 4150 50  0001 C CNN
+F 4 "875105444001" H 8750 4150 50  0001 C CNN "PartNumber"
+	1    8750 4150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

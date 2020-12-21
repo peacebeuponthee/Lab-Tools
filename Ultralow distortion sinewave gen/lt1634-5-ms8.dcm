@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1634-5-MS8
+D Voltage Reference Diodes, MSOP-8
+K voltage reference
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+#End Doc Library
