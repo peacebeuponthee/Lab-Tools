@@ -10,6 +10,11 @@
   )
 
   (page A4)
+  (title_block
+    (date 2020-12-21)
+    (rev B)
+  )
+
   (layers
     (0 F.Cu signal)
     (1 In1.Cu power)
@@ -4013,8 +4018,6 @@
   (segment (start 78.85 58.25) (end 79.475 58.875) (width 0.5) (layer F.Cu) (net 12))
   (segment (start 73.5525 65.135) (end 73.4375 65.25) (width 0.5) (layer F.Cu) (net 12))
   (segment (start 77.775 65.135) (end 73.5525 65.135) (width 0.5) (layer F.Cu) (net 12))
-  (segment (start 58.8125 58.5) (end 42.9375 58.5) (width 0.5) (layer F.Cu) (net 62))
-  (segment (start 60.3125 57) (end 58.8125 58.5) (width 0.5) (layer F.Cu) (net 62))
   (segment (start 51.885 66.135) (end 53.475 66.135) (width 0.5) (layer F.Cu) (net 13))
   (segment (start 51 65.25) (end 51.885 66.135) (width 0.5) (layer F.Cu) (net 13))
   (segment (start 51 63.5) (end 51 65.25) (width 0.5) (layer F.Cu) (net 13))
@@ -4132,6 +4135,8 @@
   (segment (start 88.612081 88.75) (end 32.110102 88.75) (width 1) (layer F.Cu) (net 60))
   (segment (start 71.25 32.5) (end 69.75 31) (width 0.5) (layer F.Cu) (net 61))
   (segment (start 71.25 33.8125) (end 71.25 32.5) (width 0.5) (layer F.Cu) (net 61))
+  (segment (start 58.8125 58.5) (end 42.9375 58.5) (width 0.5) (layer F.Cu) (net 62))
+  (segment (start 60.3125 57) (end 58.8125 58.5) (width 0.5) (layer F.Cu) (net 62))
   (segment (start 60.798027 57.485527) (end 60.3125 57) (width 0.5) (layer F.Cu) (net 62))
   (segment (start 66.8775 63.565) (end 60.798027 57.485527) (width 0.5) (layer F.Cu) (net 62))
   (segment (start 77.475 63.565) (end 75.685 63.565) (width 0.5) (layer F.Cu) (net 62))

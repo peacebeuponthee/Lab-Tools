@@ -38,6 +38,7 @@ F 3 "https://www.mouser.co.uk/datasheet/2/212/KEM_C1080_C0G_HV_AUTO_SMD-1104146.
 F 4 "80-C1210C222JDGAUTO" V 4150 4000 50  0001 C CNN "MouserID"
 F 5 "Mouser" H 4150 4000 50  0001 C CNN "Vendor"
 F 6 "80-C1210C222JDGAUTO" H 4150 4000 50  0001 C CNN "Vendor_No"
+F 7 "Yes" H 4150 4000 50  0001 C CNN "In basket"
 	1    4150 4000
 	0    1    1    0   
 $EndComp
@@ -66,6 +67,7 @@ F 3 "https://www.mouser.co.uk/datasheet/2/212/KEM_C1080_C0G_HV_AUTO_SMD-1104146.
 F 4 "80-C1210C222JDGAUTO" V 4150 4400 50  0001 C CNN "MouserID"
 F 5 "Mouser" H 4150 4400 50  0001 C CNN "Vendor"
 F 6 "80-C1210C222JDGAUTO" H 4150 4400 50  0001 C CNN "Vendor_No"
+F 7 "Yes" H 4150 4400 50  0001 C CNN "In basket"
 	1    4150 4400
 	0    1    1    0   
 $EndComp
